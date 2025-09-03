@@ -1,18 +1,13 @@
 {
-  "orgName": "Asynchronous Dml",
-  "edition": "Developer",
-  "features": [],
-  "settings": {
-    "lightningExperienceSettings": {
-        "enableS1DesktopEnabled": true
-    },
-    "securitySettings": {
-        "passwordPolicies": {
-            "enableSetPasswordInApi": true
+    "orgName": "Asynchronous Dml",
+    "edition": "Developer",
+    "features": ["EnableSetPasswordInApi"],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
         }
-    },
-    "mobileSettings": {
-        "enableS1EncryptedStoragePref2": false
     }
-  }
 }
